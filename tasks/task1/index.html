@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Login</h1>
+      <form>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email"
+          autocomplete="username"
+          required
+        />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Password"
+          autocomplete="current-password"
+          required
+        />
+        <div class="btn-center">
+          <button id="submit-btn" class="btn" type="submit">
+            <span>Login</span>
+            <span>Login</span>
+          </button>
+        </div>
+      </form>
+      <div class="link">
+        <a href="https://www.kjscecodecell.com/" target="_blank">
+          Go to CodeCell Page
+        </a>
+      </div>
+    </div>
+    <script type="text/javascript">
+      let submitBtn = document.getElementById("submit-btn");
+      let details = [];
+      submitBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        details.push(document.getElementById("email").value);
+        details.push(document.getElementById("password").value);
+        console.log(details);
+        alert("You have logged in!");
+      });
+    </script>
+  </body>
+</html>
