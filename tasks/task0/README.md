@@ -18,6 +18,7 @@
 
 ## Completed Results
 You can see the completed website [here](https://vinaykanase.github.io/month-of-mern-week0-tasks/tasks/task0/)
+<br />
 <img src="./screenshots/Screenshot1.png" height="200" />
 <br />
 
