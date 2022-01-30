@@ -17,7 +17,7 @@
 <img src="../assets/task0-ss2.jpg" height="200" />
 
 ## Completed Results
-
+You can see the completed website [here](https://vinaykanase.github.io/month-of-mern-week0-tasks/tasks/task0/)
 <img src="./screenshots/Screenshot1.png" height="200" />
 <br />
 
