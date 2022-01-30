@@ -28,6 +28,8 @@
 
 ## Completed Result
 
+You can see the website [here](https://vinaykanase.github.io/month-of-mern-week0-tasks/tasks/task1/)
+
 - [x] What the page should look like.
       <img src="./screenshots/Screenshot1.png" />
 
